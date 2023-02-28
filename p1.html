@@ -1,0 +1,276 @@
+<html lang="en">
+<head>
+  <title>Zomato</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+.icon{
+  width: 35px;
+  height: 5px;
+background-color:black;
+  margin: 6px 0;
+}
+.appname{
+position:absolute;
+top:8px;
+right:16px;
+font-family:"Helvetica",sans-serif;
+font-weight:bold;
+font-style:italic;
+font-size:40px;
+color:black;
+}
+.image{
+
+width:300px;
+}
+.image img{
+width:100%;
+}
+
+.details h1{
+  font-size:40px;
+  margin-top:0;
+}
+.details p{
+font size:20px;
+}
+.input{
+  display:flex;
+height:45px;
+margin:20px 0px;
+}
+.input-body{
+  height:100%;
+}
+.input-body select{
+height:100%;
+}
+.input-body input{
+   height:100%;
+width:100%;
+width:280px;
+max-width:300px;
+margin-right:7px;
+border:ipx solid #ccc;
+border-radius:5px;
+padding:5px;
+font-size:18px;
+}
+.button{
+  color:white;
+  background-color:rgb(239,79,95);
+  width:150px;
+  border:none;
+  font-size:17px;
+  border-radius:5px;
+}
+.radio-btn{
+  margin:5px 0;
+  font-size:18px;
+}
+.app-download{
+  display:flex;
+}
+.app-download img{
+   width:100%;
+   max-width:120px;
+   margin-right:10px;
+}
+.main{
+display:flex;
+margin:auto;
+width:700px;
+align-items:center;
+}
+.first img{
+ width:128px;
+height:32px;
+}
+.sec-7{
+padding:40px 120px;
+background-color:rgb(244,244,253);
+}
+.first{
+display:flex;
+justify-content:space-between;
+}
+.first-1{
+display:flex;
+}
+.first-1 span{
+  padding:10px;
+  border:1px solid black;
+  border-radius:5px;
+  margin-right:20px;
+  font-weight:400;
+}
+.second{
+   display:flex;
+   justify-content:space-around;
+   margin:30px 0;
+}
+.second div{
+   width:200px;
+}
+.second h4{
+   font-weight:lighter;
+   color:rgb(22,22,22);
+   white-space:nowrap;
+}
+.second a{
+    display:inline-block;
+    width:200px;
+    margin-bottom:7px;
+    white-space:nowrap;
+    text-decoration:none;
+    color:gray;
+    font-size:0.9rem;
+}
+.second img{
+     width:137px;
+     height:40px;
+     margin-top:11px;
+     cursor:pointer;
+     }
+.box-4{
+     display:flex;
+     flex-direction:column;
+}
+.box-4 i{
+     margin-left:5px;
+     margin-bottom:5px;
+}
+.third{
+     padding:10px 0;
+     color:gray;
+     font-size:0.9rem;
+}
+   
+
+
+
+
+</style>
+</head>
+<body>
+<div class="container mt-3">
+<ul class="nav">
+<li class="nav-item">
+<a class="nav-link" href="#"><div class="icon"></div><div class="icon"></div><div class="icon"></div></a>
+</li>
+<li style="float:right;" class="nav-item">
+<a class="nav-link" href="#"><div class="appname">zomato</div></a>
+</li></ul></div><hr>
+<div class="container mt-3">
+<div class="main">
+<div class="image">
+
+    <img class="img-fluid" src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" class="img-thumnail" alt="image" height="350" weight="250" &emsp>
+</div>
+  <div class="details">
+  <h1>Get the Zomato app</h2>
+  <p>We will send you a link,open it on your phone to download the app</p>
+  
+<form action="">
+<div class="radio-btn">
+   <input type="radio" name="select-radio" id="email">
+     <label for="email">Email</label>
+<input type="radio" name="select-radio" id="phone">
+     <label for="phone">Phone</label>
+</div>
+<div class="input">
+<div class="input-body">
+<!--<select>
+<option value="+91">+91</option>
+<option value="+60">+60</option>
+<option value="+63">+63</option>
+</select>-->
+<input type="text" placeholder="Email">
+</div>
+<button class="button">Share App link</button>
+</div>
+</form>
+<p>Download app from</p>
+<div class="app-download">
+<a href="#">
+<img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png">
+</a>
+<a href="#">
+<img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png">
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container mt-3">
+<section class="footer">
+<div class="sec-7">
+<div class="first">
+<div>
+<img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="">
+</div>
+<div class="first-1">
+<div>
+<span>India</span>
+</div>
+<div>
+<span>English</span>
+</div>
+</div>
+</div>
+<div class="second">
+<div>
+<h4>Company</h4>
+<a href="#">Who we are</a>
+<a href="#">Blog</a>
+<a href="#>Careers</a>
+<a href="#">Report</a>
+<a href="#>Contact</a>
+<a href="#">Investors Relations</a>
+</div>
+<div>
+   <h4>For Foodies</h4>
+   <a href="#">Code of conduct</a>
+<a href="#">Community</a>
+<a href="#">Blogger Help</a>
+<a href="#">Mobile Apps</a>
+</div>
+<div>
+ <h4>For Restaurants</h4>
+  <a href="#">Add Restaurant</a>
+<h4>For Enterprises</h4>
+<a href="#">Zomato For Work</a>
+</div>
+<div>
+<h4>For You</h4>
+ <a href="#">Privacy</a>
+<a href="#>Terms</a>
+<a href="#">Security</a>
+<a href="#">Sitemap</a>
+</div>
+<div class="box-4">
+<h4>Social Links</h4>
+<div>
+ <i class="fab fa-facebook"></i>
+ <i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+</div>
+<img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+<img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+</div>
+</div>
+<hr>
+<p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+</div>
+</section></div>
+</body>
+</html>
+
+
+
+
+
